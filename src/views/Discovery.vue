@@ -508,6 +508,15 @@ import 'swiper/css/pagination'
 .mySwiper {
     width: 100%;
     height: 300px;
+
+    .swiper-slide {
+        &:hover {
+            box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+            transform: scale(1.1);
+            transition: all 0.5s ease-in;
+        }
+    }
+
 }
 
 .carouselsContainer {
